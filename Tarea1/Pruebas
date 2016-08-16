@@ -1,0 +1,6 @@
+import jsonReader
+
+datos_rutas = jsonReader.jsonToDict("routes.json")
+
+print(type(datos_rutas))
+print(datos_rutas)
